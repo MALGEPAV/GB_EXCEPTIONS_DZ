@@ -3,7 +3,7 @@ public class Name {
     String lastName;
     String middleName;
 
-    public Name(String firstName, String lastName, String middleName) {
+    public Name(String lastName, String firstName, String middleName) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.middleName = middleName;
